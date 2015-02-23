@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+     
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        >
+
+        <Button
+android:id="@+id/btnCancerlarServicioDialogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#CC000000"
+            android:text="Cancelar"
+            android:textColor="#FFFFFF" 
+            android:layout_gravity="bottom"
+            android:gravity="center"/>
+    </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        >
+
+        <Button
+            android:id="@+id/btnConfirmarServicio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#CC000000"
+            android:text="Entregar Servicio"
+            android:textColor="#FFFFFF" 
+            android:layout_gravity="bottom"
+            android:gravity="center"/>
+    </LinearLayout>
+ 
+
+    </LinearLayout>
+
+</LinearLayout>
